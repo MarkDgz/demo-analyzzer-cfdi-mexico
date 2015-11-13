@@ -1,4 +1,12 @@
 <?   
+
+	//DATOS DEL PROGRAMA==================================
+	//$CLIENTE= "MS Solutions" ;
+	//$SISTEMA = "Analyzzer CFDI Jr. + Inventarios" ;
+	//$VERSION = "Version 2.0 MS Solutions" ;
+	//$NICK = "Por Lic. Marco A. Dominguez" ;
+	//========================================================
+
 session_start();   
 if(!isset($_SESSION['s_username']))header("location: res.php");  
 echo "Bienvenido <b>".$_SESSION['s_username']."</b> <a href=\"logout.php\">Cerrar Sesion</a>";  
