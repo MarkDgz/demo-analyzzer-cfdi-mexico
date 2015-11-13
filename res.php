@@ -51,9 +51,9 @@ $ctl_acceso = 1;
 <center>
 <?php
 if($ctl_acceso == 0) {
-echo "<br><br><br><br> No Estas Autorizado, Por Favor Ingresa Tus Datos Para Acceder Al Sistema USR/PWD (Ejemplo: admin/admin).";
-echo '<br />';
-echo '<br />';
+echo "<br><br><br><br> No Estas Autorizado, Por Favor Ingresa Tus Datos Para Acceder Al Sistema <br> USR/PWD (Ejemplo: admin/admin).";
+echo 'Solicita tu usuario de prueba a demo@analyzzer.com<br />';
+echo 'ask for your demo account at demo@analyzzer.com<br />';
     // provee el formulario para hacer  log in
     echo "<form method=post action=\"res.php\">";
     echo "<table>";
