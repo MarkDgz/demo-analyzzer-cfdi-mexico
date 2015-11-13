@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+{
+  margin:0;
+  padding:0;
+}
+body {
+  min-width: 680px;
+  background: #999; 
+/*  padding:10px; */
+}
+
+#cabecera {
+
+  background: #DCDCDC;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+#titulo {
+height:35px;
+ /* background:#00BFFF;
+ ojo aqui*/
+  /*  #ccc; (DCDCDC --> color gris de cabecera) */
+	  
+}
+
+div#menu {
+ /*   background: #4169E1; #036; (228B22 --> color verde) */
+  float: left;
+  /*opacity: 0.80;  /*efecto de transparencia*/
+  width: 100%;
+  font-family:Arial;
+  font-size:1.3em;
+  
+}
+
+div#menu li {
+   float:left;
+   position:relative;
+   list-style-type:none;
+   margin: -4px 0px 0px 0px;
+}
+
+div#menu a {
+  display:block;        
+  text-decoration:none;        
+  color:#069;     
+  padding: 4px 18px;      
+  background: #4169E1; /*#036; (228B22 --> color verde) */
+   color: #fff;
+   margin: -14px 0px 0px 0px;
+}
+
+div#menu a:hover {
+  color: #000;
+  background: #DCDCDC; /*#69C; (DCDCDC --> color gris de fondo) */
+  margin: -14px 0px 0px 0px;
+}
+   
+div#menu ul li ul {
+   position:absolute;       
+   width:12em;
+   margin: 0px 0px 0px -40px;
+}
+
+div#menu ul li ul li {
+   width:100%;        
+   /*border-bottom:1px solid #000000; /*#069;*/
+   margin: 15px 0px 0px 0px; 
+}
+
+body div#menu ul li ul {
+  display:none;
+  
+}
+
+div#menu ul li:hover ul, div#menu ul li ul:hover {
+  display:block;
+  
+}
+.button { z-index: 2;
+margin-top:35px;
+color: rgb(230, 230, 230);
+font-size: 17px;
+padding: 10px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 25.945945945945947px;
+-moz-border-radius: 25.945945945945947px;
+border-radius: 25.945945945945947px;
+background: rgb(210, 20, 20);
+background: -moz-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -webkit-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -o-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -ms-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: linear-gradient(0deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+}
+.button2 {
+	z-index: 2;
+color: rgb(230, 230, 230);
+font-size: 30px;
+padding: 5px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+background: rgb(210, 20, 20);
+background: -moz-linear-gradient(135deg, rgb(210, 20, 20) 40%, rgb(250, 20, 20) 70%);
+background: -webkit-linear-gradient(135deg, rgb(210, 20, 20) 40%, rgb(250, 20, 20) 70%);
+background: -o-linear-gradient(135deg, rgb(210, 20, 20) 40%, rgb(250, 20, 20) 70%);
+background: -ms-linear-gradient(135deg, rgb(210, 20, 20) 40%, rgb(250, 20, 20) 70%);
+background: linear-gradient(45deg, rgb(210, 20, 20) 40%, rgb(250, 20, 20) 70%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);  
+}
+.button3 {
+	z-index: 3;
+margin-top:35px;
+color: rgb(230, 230, 0);
+font-size: 15px;
+padding: 5px;
+text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 25.945945945945947px;
+-moz-border-radius: 25.945945945945947px;
+border-radius: 2px 2px 22px 0px;
+background: rgb(210, 20, 20);
+background: -moz-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -webkit-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -o-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: -ms-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+background: linear-gradient(0deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+}
