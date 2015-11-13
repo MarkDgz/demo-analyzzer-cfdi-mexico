@@ -17,7 +17,7 @@ echo "Bienvenido <b>".$_SESSION['s_username']."</b> <a href=\"logout.php\">Cerra
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<title>Sistema de Inventarios</title>
+<title>Demo Analyzzer Tools para CFDI + Sistema de Inventarios</title>
 
 <link href="menu.css" rel="stylesheet" type="text/css" />
 <link href="form2.css" rel="stylesheet" type="text/css" />
