@@ -7,6 +7,7 @@
 	//$NICK = "Por Lic. Marco A. Dominguez" ;
 	//========================================================
 
+
 session_start();
   
 require 'conectar.php';
@@ -46,7 +47,6 @@ $ctl_acceso = 1;
 
 <body>
 
-<?php include 'menuglobal.php'; ?>  
 
 <center>
 <?php
@@ -68,6 +68,7 @@ echo '<br />';
   }
 else
 {
+include 'menuglobal.php'; 
 echo '<br />';
 echo '<br />';
 echo '<br />';
